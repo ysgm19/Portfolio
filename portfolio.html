@@ -8,26 +8,98 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-    <h1>Yandery Guanipa</h1>
+    <header class="header">
+    <h1 class="tit">Yandery Guanipa</h1>
     </header>
     <main>
-        <ul>
-            <li>Data de nascimento: 19/10/1996.</li>
-            <li>Cidade de nascimento: <a href="https://es.wikipedia.org/wiki/Municipio_Los_Taques_(Falc%C3%B3n)" target="_blank">Los taques, punto fijo, Estado Falcón, Venezuela.</a></a></li>
-            <li>Faculdade: <a href="https://www.upel.edu.ve/" target="_blank">UPEL</a> Em Educaçao Especial, especialista em dificuldades do aprendizado.</li>
+        <div class="lista">
+        <ul class="menu">
+            <li class="item">Data de nascimento: 19/10/1996.</li>
+            <li class="item">Cidade de nascimento: <a href="https://es.wikipedia.org/wiki/Municipio_Los_Taques_(Falc%C3%B3n)" target="_blank">Los taques, punto fijo, Estado Falcón, Venezuela.</a></a></li>
+            <li class="item">Faculdade: <a href="https://www.upel.edu.ve/" target="_blank">UPEL</a> Em Educaçao Especial, especialista em dificuldades do aprendizado.</li>
             
         </ul>
-        <div>
-            <img src="WhatsApp Image 2022-10-18 at 23.17.27.jpeg" alt="">
-            <p>Olá! estou no Brasil há 4 anos, na cidade de Santos, sou casada, tenho uma filha, e sou apaixonada pela minha familia. Tomei a decisão de entrar na area da tecnologia, porque posso ficar mais perto dos meus, gerar ingresos, e me formar como profissional.  </p>
         </div>
-        <div>
-            <h2>Projetos...</h2>
-            <p>Em breve terá informação adicional.</p>
+        <div class="photo">
+            <img class="img" src="WhatsApp Image 2022-10-18 at 23.17.27.jpeg" alt="Img familiar">
+            <div class="sobre">
+            <p class="textp">Olá! estou no Brasil há 4 anos, na cidade de Santos, sou casada,</br> tenho uma filha, e sou apaixonada pela minha familia. Tomei </br> a decisão de entrar na area da tecnologia, porque posso ficar mais </br>  perto dos meus, gerar ingresos, e me formar como profissional.  </p>
+            </div>
         </div>
-       <div>
+        <div class="proje">
+            <h2 class="textp2">Projetos...</h2>
+            <p class="textp1">Em breve terá informação adicional.</p>
+            <div class="conteudo">
+                <div class="slides">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+                    <input type="radio" name="slide" id="slide5">
+        
+                    <div class="slide s1">
+                        <img src="img/1.jpg" alt="img1">
+        
+                    </div>
+                    <div class="slide s2">
+                        <img src="img/2.jpg" alt="img2">
+                        
+                    </div>
+                    <div class="slide s3">
+                        <img src="img/3.jpg" alt="img3">
+                        
+                    </div>
+                    <div class="slide s4">
+                        <img src="img/4.jpg" alt="img4">
+                        
+                    </div>
+                    <div class="slide s5">
+                        <img src="img/5.jpg" alt="img5">
+                        
+                    </div>
+                   
+        
+                </div>
+        
+        
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                    <label class="bar" for="slide5"></label>
+        
+                </div>
+            </div>
+        </div>
+       <div class="contato">
         <h2>Contato</h2>
+        <form>
+            <fieldset class="grupo">
+                
+                <div class="campo">
+                    <label class="form1" for="nome"><strong>Nome</strong></label>
+                    <input class="form" type="text" name="nome" id="nome" required>
+                </div>
+
+               
+                <div class="campo">
+                    <label class="form1" for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input class="form" type="text" name="sobrenome" id="sobrenome"  required>
+                </div>
+            </fieldset> 
+
+            <div class="campo">
+                <label class="form1" for="email"><strong>Email</strong></label>
+                <input class="form" type="email" name="email" id="email" required>
+            </div>
+
+            <button class="botao" type="submit">Enviar</button>
+
+            
+        
+        
+        </form>
         <p>+5513991143201</p>
         <p>ysgm19@gmail.com</p>
        </div>

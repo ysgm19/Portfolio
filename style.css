@@ -1,5 +1,204 @@
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
 
+
+.header{
+    position: relative;
+    width: 600px;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 30px;
+    box-shadow: 5px 2px 20px  rgba(0,0,0,7);
+    top: 10px;
+}
+
+.tit{
+    position: relative;
+    top: 20px;
+}
+
+.lista{
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 80%;
+    height: 300px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 2px 20px  rgba(0,0,0,7);
+
+}
+
+
+
+.menu{
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    line-height: 50px;
+    list-style: none;
+}
+
+.photo{
+    margin-top: 50px;
+    margin-left: 200px;
+    
+}
+
+.img{
+    width: 700px;
+    border-radius: 30px;
+}
+
+.sobre{
+    height: 300px;
+    width: 600px;
+    background-color: aqua;
+    margin-top: 260px;
+    float: right;
+    margin-right: 300px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.proje{
+    height: 450px;
+    width: 600px;
+    background-color: aqua;
+    margin-top: 40px;
+    margin-left: 300px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.textp{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.textp1{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.textp2{
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+}
+
+.contato{
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 37%;
+    height: 250px;
+    width: 600px;
+    background-color: aqua;
+    padding: 60px;
+    margin-bottom: 40px;
+    
+}
+
+fieldset{
+    border: 0;
+}
+.grupo{
+    display: block;
+    
+}
+
+.form1{
+    font-size: 28px;
+}
+
+.form{
+    display: flex;
+    position: relative;
+    left: 215px;
+}
+
+
+
+.conteudo{
+    height: 270px;
+    width: 425px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 1200px;
+    left: 600px;
+    transform: translate(-50%, -50%);
+
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 40px;
+    height: 17px;
+    border: 2px solid #fff;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.bar:hover{
+    background-color: #fff;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+
+
+}
+
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
 
 
 
